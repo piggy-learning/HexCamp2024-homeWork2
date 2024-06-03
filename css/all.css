@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap");
+header .header-inner h1 > a {
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+header .header-inner .nav a:hover::after {
+  position: absolute;
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-top: 1px solid #919191;
+  border-right: 1px solid #919191;
+  -webkit-box-reflect: below 16px;
+}
+
+header .header-inner .nav a:hover::before {
+  position: absolute;
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-top: 1px solid #919191;
+  border-left: 1px solid #919191;
+  -webkit-box-reflect: below 16px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  outline: 1px solid black;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #3B3B3B;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: #4dc060;
+}
+
+.df-row {
+  flex-direction: row;
+  display: flex;
+}
+.df-clounm {
+  flex-direction: column;
+  display: flex;
+}
+
+.ml-8 {
+  margin-left: 8px;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+.mb-16 {
+  margin-bottom: 16px;
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.aic {
+  align-items: center;
+}
+
+.jcfe {
+  justify-content: flex-end;
+}
+
+.g-16 {
+  gap: 16px;
+}
+.g-24 {
+  gap: 24px;
+}
+.g-40 {
+  gap: 40px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+.font-28 {
+  font-size: 28px;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.title-font-32 {
+  font-size: 32px;
+  line-height: 1.2;
+}
+.title-font-40 {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+header {
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  background-color: #fff;
+  border-bottom: 1px solid #F1F1F1;
+  top: 0%;
+}
+header .header-inner {
+  max-width: 1296px;
+  margin: 0 auto;
+  padding: 28px 0px;
+  gap: 318px;
+}
+header .header-inner h1 > a {
+  display: block;
+  width: 90px;
+  height: 40px;
+  background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/logo.svg);
+}
+header .header-inner .nav a {
+  display: block;
+  padding: 4px 8px;
+}
+header .header-inner .nav a:hover {
+  font-weight: 600;
+  position: relative;
+}
+header .header-inner .nav a:hover::before {
+  content: "";
+  left: 0%;
+  top: 0%;
+}
+header .header-inner .nav a:hover::after {
+  content: "";
+  right: 0%;
+  top: 0%;
+}
+
+.banner {
+  margin-top: 96px;
+}
+.banner .intro .para p {
+  color: #5B5B5B;
+}
+.banner .intro .para p:last-child {
+  color: #C1C1C1;
+}/*# sourceMappingURL=all.css.map */

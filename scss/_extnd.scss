@@ -1,0 +1,25 @@
+%img-rplc-text{
+  text-indent:101%;
+  overflow:hidden;
+  white-space:nowrap; 
+}
+
+
+%nav-curr-pg-style-r{
+  position: absolute;
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-top: 1px solid #919191;
+  border-right: 1px  solid #919191;
+  -webkit-box-reflect: below 16px; 
+}
+%nav-curr-pg-style-l{
+  position: absolute;
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-top: 1px solid #919191;
+  border-left: 1px  solid #919191;
+  -webkit-box-reflect: below 16px; 
+}
