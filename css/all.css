@@ -77,6 +77,9 @@ img {
 .primary-100 {
   color: #FAFAFA;
 }
+.primary-50 {
+  color: #FFFFFF;
+}
 
 a {
   text-decoration: none;
@@ -87,12 +90,20 @@ a:hover {
 }
 
 .df-row {
-  flex-direction: row;
   display: flex;
+  flex-direction: row;
 }
 .df-clounm {
-  flex-direction: column;
   display: flex;
+  flex-direction: column;
+}
+
+.pt-80 {
+  padding-top: 80px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
 }
 
 .ml-8 {
@@ -101,6 +112,13 @@ a:hover {
 
 .mr-8 {
   margin-right: 8px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+.mt-120 {
+  margin-top: 120px;
 }
 
 .mb-8 {
@@ -112,6 +130,9 @@ a:hover {
 .mb-24 {
   margin-bottom: 24px;
 }
+.mb-40 {
+  margin-bottom: 40px;
+}
 .mb-60 {
   margin-bottom: 60px;
 }
@@ -119,9 +140,15 @@ a:hover {
 .aic {
   align-items: center;
 }
+.ais {
+  align-items: start;
+}
 
 .jcfe {
   justify-content: flex-end;
+}
+.jcc {
+  justify-content: center;
 }
 
 .g-16 {
@@ -132,6 +159,9 @@ a:hover {
 }
 .g-40 {
   gap: 40px;
+}
+.g-55 {
+  gap: 55px;
 }
 
 .font-20 {
@@ -144,7 +174,14 @@ a:hover {
 .fw-600 {
   font-weight: 600;
 }
+.fw-700 {
+  font-weight: 700;
+}
 
+.title-font-28 {
+  font-size: 28px;
+  line-height: 1.2;
+}
 .title-font-32 {
   font-size: 32px;
   line-height: 1.2;
@@ -217,6 +254,7 @@ header .header-inner .nav a:hover::after {
 
 .content h2 {
   text-align: center;
+  letter-spacing: 0.12em;
   position: relative;
 }
 .content h2::before {
@@ -242,4 +280,26 @@ header .header-inner .nav a:hover::after {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+}
+.content .works .work-card .work-info {
+  max-width: 526px;
+  padding: 80px 40px 56px;
+  background: rgba(255, 255, 255, 0.1019607843);
+}
+.content .works .work-card .work-info > ul {
+  border-bottom: 1px solid #FFFFFF;
+}
+.content .works .work-card .work-info > ul a {
+  display: block;
+  padding: 4px 12px;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+}
+.content .works .work-card .work-info > a {
+  margin: 0 auto;
+  padding: 16px 32px;
+  background-color: #000000;
+}
+.content .works .ticketing-plat {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work1-bg.png?raw=true);
 }/*# sourceMappingURL=all.css.map */

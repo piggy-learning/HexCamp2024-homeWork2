@@ -29,39 +29,43 @@ img {
 
 .primary {
   &-900 {
-    color: #000000;
+    color: $primary-900;
   }
 
   &-800 {
-    color: #1E1E1E;
+    color: $primary-800;
   }
 
   &-700 {
-    color: #3B3B3B;
+    color: $primary-700;
   }
 
   &-600 {
-    color: #5B5B5B;
+    color: $primary-600;
   }
 
   &-500 {
-    color: #919191;
+    color: $primary-500;
   }
 
   &-400 {
-    color: #C1C1C1;
+    color: $primary-400;
   }
 
   &-300 {
-    color: #E9E9E9;
+    color: $primary-300;
   }
 
   &-200 {
-    color: #F1F1F1;
+    color: $primary-200;
   }
 
   &-100 {
-    color: #FAFAFA;
+    color: $primary-100;
+  }
+
+  &-50 {
+    color: $primary-50;
   }
 }
 
@@ -76,13 +80,25 @@ a {
 
 .df {
   &-row {
-    flex-direction: row;
     display: flex;
+    flex-direction: row;
   }
 
   &-clounm {
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
+  }
+}
+
+.pt {
+  &-80 {
+    padding-top: 80px;
+  }
+}
+
+.pb {
+  &-40 {
+    padding-bottom: 40px;
   }
 }
 
@@ -95,6 +111,16 @@ a {
 .mr {
   &-8 {
     margin-right: 8px;
+  }
+}
+
+.mt {
+  &-40 {
+    margin-top: 40px;
+  }
+
+  &-120 {
+    margin-top: 120px;
   }
 }
 
@@ -111,6 +137,10 @@ a {
     margin-bottom: 24px;
   }
 
+  &-40 {
+    margin-bottom: 40px;
+  }
+
   &-60 {
     margin-bottom: 60px;
   }
@@ -120,11 +150,19 @@ a {
   &c {
     align-items: center;
   }
+
+  &s {
+    align-items: start;
+  }
 }
 
 .jc {
   &fe {
     justify-content: flex-end;
+  }
+
+  &c {
+    justify-content: center;
   }
 }
 
@@ -139,6 +177,10 @@ a {
 
   &-40 {
     gap: 40px;
+  }
+
+  &-55 {
+    gap: 55px;
   }
 }
 
@@ -156,9 +198,18 @@ a {
   &-600 {
     font-weight: 600;
   }
+
+  &-700 {
+    font-weight: 700;
+  }
 }
 
 .title-font {
+  &-28 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
   &-32 {
     font-size: 32px;
     line-height: 1.2;
@@ -246,8 +297,10 @@ header {
 .content {
   h2 {
     text-align: center;
+    letter-spacing: 0.12em;
     position: relative;
-    &::before{
+
+    &::before {
       content: '';
       display: inline-block;
       width: 100px;
@@ -259,7 +312,8 @@ header {
       background-size: contain;
       background-position: center;
     }
-    &::after{
+
+    &::after {
       content: '';
       display: inline-block;
       width: 100px;
@@ -272,7 +326,36 @@ header {
       background-position: center;
     }
   }
+
   .works {
-    
+    .work-card {
+      .work-info {
+        max-width: 526px;
+        padding: 80px 40px 56px;
+        background: #FFFFFF1A;
+
+        >ul {
+          border-bottom: 1px solid $primary-50;
+
+          a {
+            display: block;
+            padding: 4px 12px;
+            border-radius: 16px;
+            background-color: $primary-50;
+          }
+        }
+
+        >a {
+          margin: 0 auto;
+          padding: 16px 32px;
+          background-color: $primary-900;
+
+        }
+      }
+    }
+
+    .ticketing-plat {
+      background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work1-bg.png?raw=true);
+    }
   }
 }
