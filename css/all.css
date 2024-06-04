@@ -50,6 +50,34 @@ img {
   height: auto;
 }
 
+.primary-900 {
+  color: #000000;
+}
+.primary-800 {
+  color: #1E1E1E;
+}
+.primary-700 {
+  color: #3B3B3B;
+}
+.primary-600 {
+  color: #5B5B5B;
+}
+.primary-500 {
+  color: #919191;
+}
+.primary-400 {
+  color: #C1C1C1;
+}
+.primary-300 {
+  color: #E9E9E9;
+}
+.primary-200 {
+  color: #F1F1F1;
+}
+.primary-100 {
+  color: #FAFAFA;
+}
+
 a {
   text-decoration: none;
   color: #000;
@@ -168,9 +196,50 @@ header .header-inner .nav a:hover::after {
 .banner {
   margin-top: 96px;
 }
-.banner .intro .para p {
-  color: #5B5B5B;
+
+.mark {
+  position: relative;
 }
-.banner .intro .para p:last-child {
-  color: #C1C1C1;
+.mark::after {
+  content: "";
+  display: block;
+  z-index: -100;
+  position: absolute;
+  left: 50%;
+  bottom: 2%;
+  transform: translateX(-49%);
+  width: 115%;
+  height: 8px;
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/mark.png?raw=true);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.content h2 {
+  text-align: center;
+  position: relative;
+}
+.content h2::before {
+  content: "";
+  display: inline-block;
+  width: 100px;
+  height: 6px;
+  margin-right: 16px;
+  vertical-align: middle;
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-left-lg.png?raw=true);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.content h2::after {
+  content: "";
+  display: inline-block;
+  width: 100px;
+  height: 6px;
+  margin-left: 16px;
+  vertical-align: middle;
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-right-lg.png?raw=true);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }/*# sourceMappingURL=all.css.map */
