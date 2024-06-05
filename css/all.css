@@ -89,6 +89,13 @@ a:hover {
   color: #4dc060;
 }
 
+.w-50 {
+  width: 50%;
+}
+.w-100 {
+  width: 100%;
+}
+
 .df-row {
   display: flex;
   flex-direction: row;
@@ -106,6 +113,10 @@ a:hover {
   padding-bottom: 40px;
 }
 
+.pr-123 {
+  padding-right: 123px;
+}
+
 .ml-8 {
   margin-left: 8px;
 }
@@ -113,12 +124,18 @@ a:hover {
 .mr-8 {
   margin-right: 8px;
 }
+.mr-100 {
+  margin-right: 100px;
+}
 
 .mt-40 {
   margin-top: 40px;
 }
 .mt-120 {
   margin-top: 120px;
+}
+.mt-200 {
+  margin-top: 200px;
 }
 
 .mb-8 {
@@ -135,6 +152,9 @@ a:hover {
 }
 .mb-60 {
   margin-bottom: 60px;
+}
+.mb-200 {
+  margin-bottom: 200px;
 }
 
 .aic {
@@ -282,11 +302,16 @@ header .header-inner .nav a:hover::after {
   background-position: center;
 }
 .content .works .work-card .work-info {
+  width: 100%;
   max-width: 526px;
   padding: 80px 40px 56px;
   background: rgba(255, 255, 255, 0.1019607843);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 24px;
 }
 .content .works .work-card .work-info > ul {
+  width: 100%;
   border-bottom: 1px solid #FFFFFF;
 }
 .content .works .work-card .work-info > ul a {
@@ -298,8 +323,18 @@ header .header-inner .nav a:hover::after {
 .content .works .work-card .work-info > a {
   margin: 0 auto;
   padding: 16px 32px;
+  border-radius: 5px;
   background-color: #000000;
 }
 .content .works .ticketing-plat {
   background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work1-bg.png?raw=true);
+}
+.content .works .finance-mgmt-app {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work2-lg.png?raw=true);
+}
+.content .works .aesthetic-medicine {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work3-bg.png?raw=true);
+}
+.content .works .backplane {
+  background-color: rgba(10, 16, 19, 0.5019607843);
 }/*# sourceMappingURL=all.css.map */

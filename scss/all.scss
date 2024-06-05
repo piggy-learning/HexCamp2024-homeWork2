@@ -77,7 +77,14 @@ a {
     color: $link-color-hover;
   }
 }
-
+.w{
+  &-50{
+    width: 50%;
+  }
+  &-100{
+    width: 100%;
+  }
+}
 .df {
   &-row {
     display: flex;
@@ -102,6 +109,12 @@ a {
   }
 }
 
+.pr {
+  &-123 {
+    padding-right: 123px;
+  }
+}
+
 .ml {
   &-8 {
     margin-left: 8px;
@@ -112,6 +125,9 @@ a {
   &-8 {
     margin-right: 8px;
   }
+  &-100{
+    margin-right: 100px;
+  }
 }
 
 .mt {
@@ -121,6 +137,10 @@ a {
 
   &-120 {
     margin-top: 120px;
+  }
+
+  &-200{
+    margin-top: 200px;
   }
 }
 
@@ -143,6 +163,9 @@ a {
 
   &-60 {
     margin-bottom: 60px;
+  }
+  &-200{
+    margin-bottom: 200px;
   }
 }
 
@@ -330,13 +353,15 @@ header {
   .works {
     .work-card {
       .work-info {
+        width: 100%;
         max-width: 526px;
         padding: 80px 40px 56px;
         background: #FFFFFF1A;
-
+        backdrop-filter: blur(5px);
+        border-radius: 24px;
         >ul {
+          width: 100%;
           border-bottom: 1px solid $primary-50;
-
           a {
             display: block;
             padding: 4px 12px;
@@ -348,14 +373,24 @@ header {
         >a {
           margin: 0 auto;
           padding: 16px 32px;
+          border-radius: 5px;
           background-color: $primary-900;
-
         }
       }
     }
-
+    
     .ticketing-plat {
       background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work1-bg.png?raw=true);
     }
+    .finance-mgmt-app{
+      background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work2-lg.png?raw=true);
+    }
+    .aesthetic-medicine{
+      background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work3-bg.png?raw=true);
+    }
+    .backplane{
+      background-color:#0A101380;
+    }
+    
   }
 }
