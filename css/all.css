@@ -108,9 +108,18 @@ a:hover {
 .pt-80 {
   padding-top: 80px;
 }
+.pt-120 {
+  padding-top: 120px;
+}
 
 .pb-40 {
   padding-bottom: 40px;
+}
+.pb-80 {
+  padding-bottom: 80px;
+}
+.pb-120 {
+  padding-bottom: 120px;
 }
 
 .pr-123 {
@@ -153,6 +162,9 @@ a:hover {
 .mb-60 {
   margin-bottom: 60px;
 }
+.mb-80 {
+  margin-bottom: 80px;
+}
 .mb-200 {
   margin-bottom: 200px;
 }
@@ -182,6 +194,9 @@ a:hover {
 }
 .g-55 {
   gap: 55px;
+}
+.g-80 {
+  gap: 80px;
 }
 
 .font-20 {
@@ -301,6 +316,12 @@ header .header-inner .nav a:hover::after {
   background-size: contain;
   background-position: center;
 }
+.content .info-link {
+  margin: 0 auto;
+  padding: 16px 32px;
+  border-radius: 5px;
+  background-color: #000000;
+}
 .content .works .work-card .work-info {
   width: 100%;
   max-width: 526px;
@@ -320,12 +341,6 @@ header .header-inner .nav a:hover::after {
   border-radius: 16px;
   background-color: #FFFFFF;
 }
-.content .works .work-card .work-info > a {
-  margin: 0 auto;
-  padding: 16px 32px;
-  border-radius: 5px;
-  background-color: #000000;
-}
 .content .works .ticketing-plat {
   background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-work1-bg.png?raw=true);
 }
@@ -337,4 +352,18 @@ header .header-inner .nav a:hover::after {
 }
 .content .works .backplane {
   background-color: rgba(10, 16, 19, 0.5019607843);
+}
+.content .service {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/homepage-services-bg.png?raw=true);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.content .service .service-list {
+  width: 100%;
+}
+.content .service .service-list > li {
+  width: 100%;
+  max-width: 306px;
+  border-radius: 16px;
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/service-item-bg.png?raw=true);
 }/*# sourceMappingURL=all.css.map */
